@@ -29,3 +29,11 @@ Commands
 4. `rails new rails-tutorial` -- creates a new Rails project called "rails-tutorial." Now there should be a new folder in the current directory called `rails-tutorial`. If you type `cd rails-tutorial` and then `ls`, you'll see a list of all of the files and folders in our new project. (These should also be on the left side of the page, in the file browser.)
 
 5. `rails server -p $PORT -b $IP` -- starts the Rails server. Don't worry about the `-p $PORT` and `-b $IP` parts for now. Now we should be able to see a vanilla Rails website at the URL `https://[project_name]-[your_username].c9users.io/`. Note that `[project_name]` is probably `rails-tutorial` (or `rails_tutorial`, depending on how you typed it).
+
+Files Changed
+-------------
+1. `/app/controllers/application_controller.rb` -- the application controller file.
+
+2. `/config/routes.rb` -- the routes file.
+
+(Note: the `/` at the beginning of each of these file paths refers to the root directory of the Rails application, not of the Cloud 9 computer.)
