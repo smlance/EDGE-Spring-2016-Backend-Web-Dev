@@ -24,7 +24,7 @@ Commands
 
 2. `cd` -- changes the directory you're currently in / moves us to a different directory. (`cd` stands for "change directory.") For example, if we're inside `~`, the home directory, and we type `cd Pictures`, we'll now be in the `~/Pictures` directory.
 
-3. `gem install rails -v 4.2.2` -- installs Rails, which is a Ruby _gem_ (another word for package). The `-v 4.4.2` part specifies that we want to install version 4.2.2.
+3. `gem install rails -v 4.2.2` -- installs Rails, which is a Ruby _gem_ (another word for package). The `-v 4.2.2` part specifies that we want to install version 4.2.2.
 
 4. `rails new rails-tutorial` -- creates a new Rails project called "rails-tutorial." Now there should be a new folder in the current directory called `rails-tutorial`. If you type `cd rails-tutorial` and then `ls`, you'll see a list of all of the files and folders in our new project. (These should also be on the left side of the page, in the file browser.)
 
